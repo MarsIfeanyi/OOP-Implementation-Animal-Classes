@@ -79,7 +79,7 @@ class Animal {
 
 //const animal = new Animal(); // Calling an Abstract Class throws an Error
 
-console.log("\n************* Class Inheritance *****************************");
+console.log("\n************* Class INHERITANCE *****************************");
 
 // INHERITANCE: WithOutBackBone Inheritances from the Animal Class
 
@@ -159,12 +159,14 @@ console.log(
 );
 console.log(`Butterfly is an ${butterfly.checkColdBlooded("Arthropoda")}`);
 
-console.log("\n===== More Info about Butterfly ================");
+console.log("\n===== Getting More Info about Butterfly ================");
 console.log(butterfly.MoreInfo());
 
 console.log(
   "\n************************************************************************"
 );
+
+console.log("\n***************Class INHERITANCE******************************");
 
 //Class INHERITANCE
 
@@ -290,3 +292,4 @@ console.log(mammals.MammalsFeatures());
 
 console.log("\n===== Getting the sounds from mammals ============");
 console.log(mammals.makeSounds());
+console.log("\n");
